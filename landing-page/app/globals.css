@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue-deep: #004aad;
+  --white-ice: #f8f9fa;
+  --gray-neutral: #eaeaea;
+  --black-soft: #333333;
+  --green-whatsapp: #25d366;
+  --blue-light: #e6f0ff;
+}
+
+* {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+body {
+  background-color: var(--white-ice);
+  color: var(--black-soft);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--blue-deep);
+}
+
+.btn-primary {
+  background-color: var(--blue-deep);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-light);
+  color: var(--blue-deep);
+}
+
+.btn-whatsapp {
+  background-color: var(--green-whatsapp);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1da850;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.footer {
+  background-color: var(--gray-neutral);
+}
+
+
+
