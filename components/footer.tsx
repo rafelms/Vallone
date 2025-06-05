@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-300 pt-6 text-center">
-          <p>&copy; {new Date().getFullYear()} ScaleUp. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} rafelms. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
